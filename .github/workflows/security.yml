@@ -13,6 +13,6 @@ jobs:
 
     steps:
       - name: Test for public JavaScript library vulnerabilities
-        uses: lirantal/is-website-vulnerable@master
+        uses: lirantal/is-website-vulnerable@main
         with:
           scan-url: https://yceffort.kr
