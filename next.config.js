@@ -1,11 +1,9 @@
-const { isStyledComponent } = require("styled-components");
-
-/** @type {import('next').NextCOnfig} */
+/** @type {import("next").NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  poweredByHeader: false,
-  output: "standalone",
-  isStyledComponent: true,
+  compiler: {
+    styledComponents: true,
+  },
 };
 
 module.exports = nextConfig;
